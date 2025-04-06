@@ -20,7 +20,7 @@ def test_one_quarter() -> None:
 def test_mixed_coins() -> None:
     assert get_coin_combination(41) == [1, 1, 1, 1]
     assert get_coin_combination(6) == [1, 1, 0, 0]
-    assert get_coin_combination(30) == [0, 0, 1, 1]
+    assert get_coin_combination(30) == [0, 1, 0, 1]
 
 
 def test_large_amount() -> None:
