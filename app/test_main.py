@@ -1,4 +1,5 @@
-from app import get_coin_combination
+import pytest
+from app.main import get_coin_combination
 
 
 def test_one_penny() -> None:
